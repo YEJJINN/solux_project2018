@@ -1,6 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Gaegu:300,700');
+@import url('https://fonts.googleapis.com/css?family=Dokdo:400');
 body{
+  background-image: url(pinkback.jpg);
+  background-color: rgb(146, 109, 106);
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
   margin:0;
-  font-family: "Courier New";
+  font-family: 'Gaegu';
+  font-size: 20px;
+}
+.box{
+  background-color: rgba(255, 255, 255, 0.3);
+  margin: 1em 1em 1em 1em;
+  clear:right;
+}
+.js{
+  font-weight: bold;
+  color:red;
+}
+#first{
+  color:green;
+}
+span{
+  color:blue;
 }
 .clock {
   position: absolute;
@@ -9,7 +32,7 @@ body{
   font-size: 4em;
   color: rgb(240,204,205);
   font-size: 60px;
-  font-family: Orbitron;
+  font-family: 'Gaegu'
   letter-spacing: 7px;
 }
 .button {
@@ -60,15 +83,15 @@ body{
    color: #fff;
    }
 
-    a {
+  a {
     text-decoration: none;
   }
 
   h1 {
-    background-image: url(background.jpg);
+    background-color: rgba(255, 255, 255, 0.3);
     font-size: 45px;
     text-align: center;
-    font-family: "Courier New";
+    font-family: 'Dokdo';
     border:3px solid lightgray;
     margin:10px 10px 0px 10px;
     padding:20px;
