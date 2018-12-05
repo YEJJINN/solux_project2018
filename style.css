@@ -27,7 +27,7 @@ span{
 }
 .clock {
   position: absolute;
-  top: 110px;
+  top: 100px;
   right: 0;
   font-size: 4em;
   color: rgb(240,204,205);
@@ -36,6 +36,10 @@ span{
   letter-spacing: 7px;
 }
 .button {
+   position: relative;
+   top: 10px;
+   left: 10px;
+
    border: 0px solid #080708;
    background: #7ba3bd;
    background: -webkit-gradient(linear, left top, left bottom, from(#f0cccd), to(#7ba3bd));
@@ -113,6 +117,8 @@ span{
   #grid ol{
     padding-left:33px;
   }
+
+
   @media(max-width:800px){
     #grid{
       display: block;
